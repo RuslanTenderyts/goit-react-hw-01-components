@@ -13,7 +13,7 @@ export default function Statistics({ title, stats }) {
                     <Stats 
                         key = {item.id}
                         label = {item.label}
-                        percentage ={item.percentage}
+                        percentage = {item.percentage}
                     />
                 ))}
 
