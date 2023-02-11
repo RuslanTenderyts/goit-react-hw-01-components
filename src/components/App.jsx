@@ -23,9 +23,13 @@ export const App = () => {
         >
           React homework template
         </div>
-        <div class='container'>
+        <div style={{
+              display: 'flex',
+              alignItems: 'flex-start',
+              justifyContent: 'space-evenly'
+          }}>
 
-          <div class='task'>
+          <div>
             <h2>Task 1</h2>
             < Profile 
                   username={user.username}
